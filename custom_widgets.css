@@ -1,0 +1,399 @@
+.ktv-icons {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+.emo-div-bg {
+    cursor:pointer; 
+    background-color: #f3f3f3;
+    padding: 10px 10px;
+    border: 1px solid #dddddd;
+}
+.ktvEmo-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 10px 12.7px;
+  border: 1px solid #dddddd;
+}
+.cesEmo-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 10px 45.7px;
+  border: 1px solid #dddddd;
+}
+.ktv-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 5px 19.7px;
+  border: 1px solid #dddddd;
+}
+.nps-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 5px 16.7px;
+  border: 1px solid #dddddd;
+}
+.ces-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 5px 52.9px;
+  border: 1px solid #dddddd;
+}
+.star-div-bg {
+  cursor:pointer; 
+  background-color: #f3f3f3;
+  padding: 6px 12px;
+}
+.nps-header {
+  background: linear-gradient(to right, #c60b00 0%, #e98900 25%, #ffd800 50%, #a1b90e 75%, #2e931f 100%); 
+  background-image:linear-gradient(to right, rgb(198, 11, 0) 0%, rgb(233, 137, 0) 25%, rgb(255, 216, 0) 50%, rgb(161, 185, 14) 75%, rgb(46, 147, 31) 100%);
+  left: 0px; 
+  top: 53px; 
+  right: -1px; 
+  height : 5px; 
+  width : 664.2px;
+}
+.ces-header {
+  background: linear-gradient(to right, #2e931f 0%, #a1b90e 25%, #ffd800 50%, #e98900 75%, #c60b00 100%); 
+  left: 0px; 
+  top: 53px; 
+  right: -1px; 
+  height : 5px; 
+  width : 664.2px;
+}
+.ktv-header {
+  background: linear-gradient(to right, #c60b00 0%, #e98900 25%, #ffd800 50%, #a1b90e 75%, #2e931f 100%); 
+  left: 0px; 
+  top: 53px; 
+  right: -1px; 
+  height : 5px; 
+  width : 664.2px;
+}
+.ktv-icons {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.gauge {
+    width: 100%;
+    max-width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #004033;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+  .nps_gauge__body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #de1900 10%, rgb(250, 231, 7) 50%, rgb(49, 171, 11) 100%);
+  
+  }
+  .ces_gauge__body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, rgb(36, 168, 9) 10%, rgb(250, 231, 7) 50%, #de1900 100%);
+  
+  } 
+  .ktv_gauge__body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #de1900 10%, rgb(250, 231, 7) 50%, rgb(49, 171, 11) 100%);
+  
+  }
+  
+  .gauge__fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+  }
+  .sc-min { 
+    float:left;
+    margin-left: 5px;
+   }
+  .sc-max { 
+    float:right;   
+    margin-right: 5px;
+  }
+  .gauge__cover {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    left: 10%;    
+    height: 130%;
+    background-color:#f7f7f7;
+    border-radius: 150px 150px 0 0;
+    width: 80%;
+    top: 20%;
+    /* Text */
+    padding-bottom: 25%;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .gauge__niddle {
+   
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    position: absolute;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+    z-index: 9;
+  }
+  .gauge__niddle__body {
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    z-index: 9;
+  }
+
+  .gauge_niddle_pointer {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 89.8px;
+    bottom: 0;
+    left: 80px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 121px solid #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .gauge__text {
+    background:#f7f7f7;
+    position: absolute;
+    bottom: -43px;
+  }
+
+  .gauge__center__value {
+    position: absolute;
+    font-size: 16px;
+    z-index: 9;
+    bottom: 104px;
+  }
+  .row {
+    display : flex;
+    align-items : center;
+    margin-bottom: 15px;
+  }
+  .row_star_rating {
+    display : flex;
+    align-items : center;
+    justify-content: space-around;
+  }
+  .box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #f7f7f7;
+  margin-right : 5px;
+  }
+  
+  .red {
+  background-color: red;
+  }
+  
+  .green {
+  background-color: green;
+  }
+  
+  .yellow {
+  background-color: yellow;
+  }
+
+  .div_description {
+    padding-top: 10px;
+    padding-left: 80px;
+    width: 380px;
+    font-size: 14px;
+  }
+  .span_div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div_text_wrapper {
+    position: relative;
+    display: flex;
+    height: 7px;
+    justify-content: center;
+  }
+ 
+.chart-skills {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.positiveButton{
+  padding-left: 16px;
+  width: 50px;
+  height: 25px;
+  font-weight: bold;
+  border: 2px solid;
+  cursor: pointer;
+  padding-top: 0px;
+  padding-bottom: 2px;
+}
+
+.negativeButton{
+  padding-left: 5px;
+  width: 50px;
+  height: 25px;
+  font-weight: bold;
+  border: 2px solid;
+  cursor: pointer;
+  padding-top: 0px;
+  padding-bottom: 2px;
+}
+
+
+.chart-skills {
+  position: absolute;
+  width: 100px;
+  height: 55px;
+  overflow: hidden;
+  top: 100px;
+  left: 100px;
+
+}
+
+.chart-skills li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 50px;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  transform-origin: 50% 0;
+}
+
+li.low {
+  z-index: 4;
+  background-color: #FA0E1C;
+  transform: rotate(180deg);
+  top: 54px;
+}
+li.normal {
+  z-index: 3;
+  background-color: #FEE62A;
+  transform: rotate( 33deg );
+  top: 54px;
+
+}
+li.high {
+  z-index: 2;
+  background-color: green;
+  transform: rotate(180deg);
+}
+li.lowces {
+  z-index: 4;
+  background-color: green;
+  transform: rotate(180deg);
+  top: 54px;
+}
+li.highces {
+  z-index: 2;
+  background-color: #FA0E1C;
+  transform: rotate(180deg);
+}
+.starrating > input {display: none;}
+
+.starrating > label:before { 
+  
+  margin: 2px !important;
+  font-size: 3em !important;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block !important;;
+  cursor: pointer !important;
+  font-weight: 400;
+  
+}
+.starrating > input:checked ~ label:before
+{ 
+  font-family: "Font Awesome 5 Free";
+  display: inline-block !important;
+  cursor: pointer !important;
+  font-weight: 900;
+  color: lightyellow !important;
+  -webkit-text-stroke-width: 3px !important;
+  -webkit-text-stroke-color: #ecd031 !important; }
+
+.starrating > input:hover ~ label:before
+{ 
+  font-family: "Font Awesome 5 Free";
+  display: inline-block !important;;
+  cursor: pointer !important;
+  font-weight: 900;
+  color: lightyellow !important;
+  -webkit-text-stroke-width: 3px !important;
+  -webkit-text-stroke-color: #ecd031 !important;
+  }
+
+.starrating > input[disabled] ~ label:before
+{ 
+  font-family: "Font Awesome 5 Free";
+  display: inline-block !important;
+  cursor: pointer !important;;
+  font-weight: 400;
+  color: transparent !important;
+  -webkit-text-stroke-width: 3px !important;
+  -webkit-text-stroke-color: #063655 !important ;
+}
+
+.starrating > input[checked = "checked"] ~ label:before
+{  
+  font-family: "Font Awesome 5 Free";
+  display: inline-block !important;
+  cursor: pointer !important;;
+  font-weight: 400;
+  color: lightyellow !important;;
+  -webkit-text-stroke-width: 3px !important;
+  -webkit-text-stroke-color: #ecd031 !important; }
+
+  .m-fadeOut {
+    visibility: hidden;
+    opacity: 0 !important;
+    transition: visibility 0s linear 5s, opacity 5s;
+  }
+  .m-fadeIn {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s linear 0s, opacity 1s;
+  }
+  
+  .rectangleButton{
+      border: 2px solid;
+      width: 50px;
+      height: 25px;
+      background: white;
+      cursor: pointer;
+      color: #063655
+  }
